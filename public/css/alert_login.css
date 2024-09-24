@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://th.bing.com/th/id/OIP.DA4LLRzYKyVeti9aZXlmtwHaFV?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    height: 400px;
+    width: 450px;
+    z-index: 2;
+    background: #508D4E;
+    border: 2px solid rgb(13, 1, 1);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 0 40px black;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+
+.main h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.alert-danger{
+    color: #FF7777;
+    border: 2px solid #FF7777; 
+
+    border-radius: 5px;
+    height:50px;
+    width:90%;
+    position:relative;
+    left:20px;
+    text-align:center;
+    padding-top: 5px;
+}
+.main .input-box {
+    width: 50px;
+    height: 25px;
+    position: relative;
+    /* background: salmon; */
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 400px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff87;
+}
+
+ .input-box i {
+    position:absolute;
+    left:360px;
+    top:20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+} 
+
+.main .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    padding: 20px 0 0 0;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.main .btn {
+    width: 400px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.main .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
