@@ -40,7 +40,7 @@ app.use(cookieParser());  // This middleware is necessary to parse cookies
 
 //routes;
 app.use("/home1",createUserUid,signup);
-app.get("/home",(req,res)=>{
+app.get("/",(req,res)=>{
     res.render("home.ejs");
 })
 app.listen(port,()=>console.log(`server started successfuly at port ${port}.`)); 
